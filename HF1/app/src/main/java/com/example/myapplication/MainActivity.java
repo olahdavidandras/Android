@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 eredmeny.setText(String.valueOf(ossz));
             }
         });
-        szorzas.setOnClickListener(new View.OnClickListener() {
+        osztas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 float szam11 = Float.parseFloat(szam1.getText().toString());
